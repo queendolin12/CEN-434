@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function factorial(number){
+            let result = 1;
+            for (let i=number; i>0; --i){
+                result *= i;
+        }
+            return result;
+        }
+        function combination(X, Y){
+            if (X>Y){
+                result = factorial(X)/(factorial(X-Y)*factorial(Y));
+                return result;
+            }
+            else if(Y>X){
+                result = factorial(Y)/(factorial(Y-X)*factorial(X));
+                return result;
+            }
+            else if(X==Y){
+                // let result = 1;
+                result = factorial(X+1)/(factorial(X+1-Y)*factorial(Y));
+                return result;
+            }
+            return result;
+        }
+        let answer = combination(5,2);
+        console.log('The answer is', answer);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
