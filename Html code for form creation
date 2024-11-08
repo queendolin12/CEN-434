@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Pinkberry consultations</h1>
+    <!-- <img src="pink.jpg"> -->
+    <div class="main">
+        <form action="post">
+            <p>Firstname</p>
+            <input type="text"/>
+            <!-- <br> -->
+            <p>Last name</p>
+            <input type="text">
+            <p>Age</p>
+            <input type="date">
+            <p>password</p>
+            <input type="password">
+            <p>Gender</p>
+            <section style="border:block">
+                <input type="radio" name="gender">
+                <p style="display: inline;">Female</p>
+                <input type="radio" name="gender">
+                <p style="display: inline;">Male</p>
+                <p>To submit and register</p>
+                <div class="btn">
+                    <button>Submit</button>
+                </div>
+            </section>
+        </form>
+    </div>
+</body>
+</html>
