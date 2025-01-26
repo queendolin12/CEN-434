@@ -1,0 +1,18 @@
+import Java.io.*;
+  Class CUStudent (){
+    private char[] FirstName;
+    private char[] LastName;
+    private int Age;
+    private float CGPA;
+    private float chapelAttendance;   
+    
+   
+}
+
+Class Toview(){
+  Public Static Void Main(String[] args){
+    CUStudent C = New CUStudent();
+    C.Age = 12;
+    System.Out.Println( C.Age);
+  }
+}
