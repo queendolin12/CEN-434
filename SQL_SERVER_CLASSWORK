@@ -1,0 +1,18 @@
+CREATE TABLE Students (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    MatriculationNumber VARCHAR(20),
+    Gender VARCHAR(6)
+);
+INSERT INTO Students (ID, Name, MatriculationNumber, Gender) VALUES
+(1, 'Alice Johnson', 'M123456789', 'Female'),
+(2, 'Bob Smith', 'M987654321', 'Male'),
+(3, 'Charlie Brown', 'M123456780', 'Male'),
+(4, 'Diana Prince', 'M123456781', 'Female'),
+(5, 'Ethan Hunt', 'M123456782', 'Male'),
+(6, 'Fiona Apple', 'M123456783', 'Female'),
+(7, 'George Orwell', 'M123456784', 'Male'),
+(8, 'Hannah Montana', 'M123456785', 'Female'),
+(9, 'Ian Fleming', 'M123456786', 'Male'),
+(10, 'Julia Roberts', 'M123456787', 'Female');
+SELECT * FROM Students;
